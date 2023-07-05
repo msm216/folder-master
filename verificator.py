@@ -82,11 +82,11 @@ structure = {
 target_folder = "target-folder"  # 目标文件夹路径
 
 # 获取所有语言分类子文件夹的路径
-language_folders = [folder for folder in os.listdir(target_folder) if os.path.isdir(os.path.join(target_folder, folder))]
+lang_folders = [folder for folder in os.listdir(target_folder) if os.path.isdir(os.path.join(target_folder, folder))]
 # ['English_EN', 'French_FR', 'German_DE', 'Dutch_NL']
 
 # 遍历每个语言分类子文件夹
-for lang_folder in language_folders:
+for lang_folder in lang_folders:
     lang_code = lang_folder.split("_")[-1]  # 提取语言代码
 
     csv_file = f"{lang_code}_verification.csv"  # CSV文件名
