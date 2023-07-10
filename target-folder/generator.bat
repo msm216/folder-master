@@ -18,6 +18,8 @@ for /D %%G in ("*") do (
     mkdir "MaxiCharger AC\Wallbox\User Manual\arch" 2>nul
     mkdir "MaxiCharger AC\Wallbox\Quick Guide" 2>nul
     mkdir "MaxiCharger AC\Wallbox\Quick Guide\arch" 2>nul
+    mkdir "MaxiCharger AC\Wallbox\Maintenance Manual" 2>nul
+    mkdir "MaxiCharger AC\Wallbox\Maintenance Manual\arch" 2>nul
     mkdir "MaxiCharger AC\Wallbox\Pedestal" 2>nul
     mkdir "MaxiCharger AC\Wallbox\Pedestal\Quick Guide" 2>nul
     mkdir "MaxiCharger AC\Wallbox\Pedestal\Quick Guide\arch" 2>nul
@@ -34,8 +36,6 @@ for /D %%G in ("*") do (
     mkdir "MaxiCharger AC\Ultra\User Manual\arch" 2>nul
     mkdir "MaxiCharger AC\Ultra\Quick Guide" 2>nul
     mkdir "MaxiCharger AC\Ultra\Quick Guide\arch" 2>nul
-    mkdir "MaxiCharger AC\Maintenance Manual" 2>nul
-    mkdir "MaxiCharger AC\Maintenance Manual\arch" 2>nul
     mkdir "MaxiCharger AC\Energy Management System" 2>nul
     mkdir "MaxiCharger AC\Energy Management System\Installation and Operation Manual" 2>nul
     mkdir "MaxiCharger AC\Energy Management System\Installation and Operation Manual\arch" 2>nul
@@ -45,7 +45,7 @@ for /D %%G in ("*") do (
     mkdir "MaxiCharger DC\Fast\Installation and Operation Manual\arch" 2>nul
     mkdir "MaxiCharger DC\Fast\Service Manual" 2>nul
     mkdir "MaxiCharger DC\Fast\Service Manual\arch" 2>nul
-    rem mkdir "MaxiCharger DC\MaxiCharger DC Fast\Power Modul" 2>nul
+    mkdir "MaxiCharger DC\MaxiCharger DC Fast\Power Modul" 2>nul
     mkdir "MaxiCharger DC\Fast\CMS" 2>nul
     mkdir "MaxiCharger DC\Fast\CMS\Quick Guide" 2>nul
     mkdir "MaxiCharger DC\Fast\CMS\Quick Guide\arch" 2>nul
@@ -54,6 +54,6 @@ for /D %%G in ("*") do (
     mkdir "MaxiCharger DC\Compact\Installation and Operation Manual\arch" 2>nul
     mkdir "MaxiCharger DC\Compact\Service Manual" 2>nul
     mkdir "MaxiCharger DC\Compact\Service Manual\arch" 2>nul
-    rem mkdir "MaxiCharger DC\Compact\Power Modul" 2>nul
+    mkdir "MaxiCharger DC\Compact\Power Modul" 2>nul
     cd ..
 )
