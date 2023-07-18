@@ -4,7 +4,6 @@ rem 创建子文件夹
 mkdir "English_EN" 2>nul
 mkdir "French_FR" 2>nul
 mkdir "German_DE" 2>nul
-mkdir "Dutch_NL" 2>nul
 
 rem 切换到根目录
 cd /d "%~dp0"
@@ -14,8 +13,8 @@ for /D %%G in ("*") do (
     cd "%%G"
     mkdir "MaxiCharger AC" 2>nul
     mkdir "MaxiCharger AC\Wallbox" 2>nul
-    mkdir "MaxiCharger AC\Wallbox\User Manual" 2>nul
-    mkdir "MaxiCharger AC\Wallbox\User Manual\arch" 2>nul
+    mkdir "MaxiCharger AC\Wallbox\Installation and Operation Manual" 2>nul
+    mkdir "MaxiCharger AC\Wallbox\Installation and Operation Manual\arch" 2>nul
     mkdir "MaxiCharger AC\Wallbox\Quick Guide" 2>nul
     mkdir "MaxiCharger AC\Wallbox\Quick Guide\arch" 2>nul
     mkdir "MaxiCharger AC\Wallbox\Maintenance Manual" 2>nul
