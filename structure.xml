@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MaxiCharger_AC>
+    <Wallbox>
+        <Installation_and_Operation_Manual doc="true" >
+
+        </Installation_and_Operation_Manual>
+
+    </Wallbox>
+    <Compact>
+
+    </Compact>
+    <Ultra>
+
+    </Ultra>
+    <Maintenance_Manual>
+
+    </Maintenance_Manual>
+</MaxiCharger_AC>
+<MaxiCharger_DC>
+
+</MaxiCharger_DC>
+<Energy_Management_System>
+
+</Energy_Management_System>
+
+
+<!--
+# 定义文件夹结构模板
+structure = {
+    'MaxiCharger AC': {
+        'MaxiCharger AC Wallbox': {
+            'User Manual': {
+                'pdf': True, 
+                'template': 'MaxiCharger AC Wallbox - User Manual_{0}_{1}'
+            },
+            'Quick Guide': {
+                'pdf': True, 
+                'template': 'MaxiCharger AC Wallbox - Quick Guide_{0}_{1}'
+            }
+        },
+        'MaxiCharger AC Compact': {
+            'User Manual': {
+                'pdf': True, 
+                'template': 'MaxiCharger AC Compact - User Manual_{0}_{1}'
+            },
+            'Quick Guide': {
+                'pdf': True, 
+                'template': 'MaxiCharger AC Compact - Quick Guide_{0}_{1}'
+            }
+        },
+        'MaxiCharger AC Ultra': {
+            'User Manual': {
+                'pdf': True, 
+                'template': 'MaxiCharger AC Ultra - User Manual_{0}_{1}'
+            },
+            'Quick Guide': {
+                'pdf': True, 
+                'template': 'MaxiCharger AC Ultra - Quick Guide_{0}_{1}'
+            }
+        },
+        'Energy Management System': {
+            'Installation and Operation Manual': {
+                'pdf': True, 
+                'template': 'Energy Management System - Installation and Operation Manual_{0}_{1}'
+            }
+        },
+        'Maintenance Manual': {
+            'pdf': True, 
+            'template': 'MaxiCharger AC Wallbox - Maintenance Manual_{0}_{1}'
+        }
+    },
+    'MaxiCharger DC': {
+        'MaxiCharger DC Fast': {
+            'Installation and Operation Manual': {
+                'pdf': True, 
+                'template': 'MaxiCharger DC Fast - Installation and Operation Manual_{0}_{1}'
+            },
+            'Service Manual': {
+                'pdf': True, 
+                'template': 'MaxiCharger DC Fast - Service Manual_{0}_{1}'
+            }
+        },
+        'MaxiCharger DC Fast CMS': {
+            'Quick Guide': {
+                'pdf': True, 
+                'template': 'MaxiCharger DC Fast CMS - Quick Guide_{0}_{1}'
+            }
+        },
+        'MaxiCharger DC Compact': {
+            'Installation and Operation Manual': {
+                'pdf': True, 
+                'template': 'MaxiCharger DC Compact - Installation and Operation Manual_{0}_{1}'
+            },
+            'Service Manual': {
+                'pdf': True, 
+                'template': 'MaxiCharger DC Compact - Service Manual_{0}_{1}'
+            }
+        }
+    }
+}
+-->

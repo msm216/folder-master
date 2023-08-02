@@ -3,79 +3,6 @@ import csv
 
 from datetime import datetime
 
-# 定义文件夹结构模板
-structure = {
-    'MaxiCharger AC': {
-        'MaxiCharger AC Wallbox': {
-            'User Manual': {
-                'pdf': True, 
-                'template': 'MaxiCharger AC Wallbox - User Manual_{0}_{1}'
-            },
-            'Quick Guide': {
-                'pdf': True, 
-                'template': 'MaxiCharger AC Wallbox - Quick Guide_{0}_{1}'
-            }
-        },
-        'MaxiCharger AC Compact': {
-            'User Manual': {
-                'pdf': True, 
-                'template': 'MaxiCharger AC Compact - User Manual_{0}_{1}'
-            },
-            'Quick Guide': {
-                'pdf': True, 
-                'template': 'MaxiCharger AC Compact - Quick Guide_{0}_{1}'
-            }
-        },
-        'MaxiCharger AC Ultra': {
-            'User Manual': {
-                'pdf': True, 
-                'template': 'MaxiCharger AC Ultra - User Manual_{0}_{1}'
-            },
-            'Quick Guide': {
-                'pdf': True, 
-                'template': 'MaxiCharger AC Ultra - Quick Guide_{0}_{1}'
-            }
-        },
-        'Energy Management System': {
-            'Installation and Operation Manual': {
-                'pdf': True, 
-                'template': 'Energy Management System - Installation and Operation Manual_{0}_{1}'
-            }
-        },
-        'Maintenance Manual': {
-            'pdf': True, 
-            'template': 'MaxiCharger AC Wallbox - Maintenance Manual_{0}_{1}'
-        }
-    },
-    'MaxiCharger DC': {
-        'MaxiCharger DC Fast': {
-            'Installation and Operation Manual': {
-                'pdf': True, 
-                'template': 'MaxiCharger DC Fast - Installation and Operation Manual_{0}_{1}'
-            },
-            'Service Manual': {
-                'pdf': True, 
-                'template': 'MaxiCharger DC Fast - Service Manual_{0}_{1}'
-            }
-        },
-        'MaxiCharger DC Fast CMS': {
-            'Quick Guide': {
-                'pdf': True, 
-                'template': 'MaxiCharger DC Fast CMS - Quick Guide_{0}_{1}'
-            }
-        },
-        'MaxiCharger DC Compact': {
-            'Installation and Operation Manual': {
-                'pdf': True, 
-                'template': 'MaxiCharger DC Compact - Installation and Operation Manual_{0}_{1}'
-            },
-            'Service Manual': {
-                'pdf': True, 
-                'template': 'MaxiCharger DC Compact - Service Manual_{0}_{1}'
-            }
-        }
-    }
-}
 
 
 
@@ -89,8 +16,8 @@ lang_folders = [folder for folder in os.listdir(target_folder) if os.path.isdir(
 for lang_folder in lang_folders:
     lang_code = lang_folder.split("_")[-1]  # 提取语言代码
 
-    csv_file = f"{lang_code}_verification.csv"  # CSV文件名
-    csv_path = os.path.join(target_folder, lang_folder, csv_file)
+    csv_name = f"{lang_code}_verification.csv"  # CSV文件名
+    csv_path = os.path.join(target_folder, lang_folder, csv_name)
 
     # 打开CSV文件并写入表头
     with open(csv_path, "w", newline="") as file:
