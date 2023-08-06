@@ -7,13 +7,11 @@ second line<br>
 
 | language | category | object | document | update | status |
 | --- | --- | --- | --- | --- | --- |
-| v1 | v2 | v3 | v4 | v5 | v6 |
-| v1 | v2 | v3 | v4 | v5 | v6 |
-| v1 | v2 | v3 | v4 | v5 | v6 |
-| v1 | v2 | v3 | v4 | v5 | v6 |
-| v1 | v2 | v3 | v4 | v5 | v6 |
-| v1 | v2 | v3 | v4 | v5 | v6 |
-| v1 | v2 | v3 | v4 | v5 | v6 |
-| v1 | v2 | v3 | v4 | v5 | v6 |
-| v1 | v2 | v3 | v4 | v5 | v6 |
-| v1 | v2 | v3 | v4 | v5 | v6 |
+| --- | --- | --- | --- | --- | --- |
+English_EN
+
+| language | category | object | document | update | status |
+| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
+German_DE
+
