@@ -30,8 +30,12 @@ for /D %%G in ("*") do (
     mkdir "MaxiCharger AC\Ultra\User Manual\arch" 2>nul
     mkdir "MaxiCharger AC\Ultra\Quick Guide" 2>nul
     mkdir "MaxiCharger AC\Ultra\Quick Guide\arch" 2>nul
+    mkdir "MaxiCharger AC\Pedestal" 2>nul
     mkdir "MaxiCharger AC\Pedestal\Quick Guide" 2>nul
     mkdir "MaxiCharger AC\Pedestal\Quick Guide\arch" 2>nul
+    mkdir "MaxiCharger AC\Pedestal ASP" 2>nul
+    mkdir "MaxiCharger AC\Pedestal ASP\Quick Guide" 2>nul
+    mkdir "MaxiCharger AC\Pedestal ASP\Quick Guide\arch" 2>nul
     mkdir "MaxiCharger AC\Maintenance Manual" 2>nul
     mkdir "MaxiCharger AC\Maintenance Manual\arch" 2>nul
     mkdir "Energy Management System" 2>nul
