@@ -7,6 +7,11 @@
         <Quick_Guide class="doc">
             <arch></arch>
         </Quick_Guide>
+        <Pedestal class="item">
+            <Quick_Guide class="doc">
+                <arch></arch>
+            </Quick_Guide>
+        </Pedestal>
         <Pedestal_EP class="item">
             <Quick_Guide class="doc">
                 <arch></arch>
@@ -29,11 +34,6 @@
             <arch></arch>
         </Quick_Guide>
     </Ultra>
-    <Pedestal class="item">
-            <Quick_Guide class="doc">
-                <arch></arch>
-            </Quick_Guide>
-        </Pedestal>
     <Pedestal_ASP class="item">
         <Quick_Guide class="doc">
             <arch></arch>
@@ -65,7 +65,7 @@
             <arch></arch>
         </Service_Manual>
     </Compat>
-</MaxiCharger_DC class="cat">
+</MaxiCharger_DC>
 <Energy_Management_System class="cat">
     <Operation_and_Installation_Manual class="doc">
         <arch></arch>
