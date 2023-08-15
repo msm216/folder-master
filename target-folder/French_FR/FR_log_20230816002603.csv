@@ -2,12 +2,13 @@ language,category,item,document,release,status
 FR,MaxiCharger AC,Compact,User Manual,2023-03-02,verified
 FR,MaxiCharger AC,Compact,Quick Guide,2023-02-15,verified
 FR,MaxiCharger AC,Ultra,User Manual,,missing
-FR,MaxiCharger AC,Ultra,Quick Guide,,missing
+FR,MaxiCharger AC,Ultra,Quick Guide,,abnormal
 FR,MaxiCharger AC,Wallbox,Quick Guide,2023-05-23,verified
 FR,MaxiCharger AC,Wallbox Pedestal EP,Quick Guide,2023-05-12,verified
 FR,MaxiCharger AC,Wallbox,Installation and Operation Manual,,missing
 FR,MaxiCharger AC,Wallbox,Maintenance Manual,2023-02-08,verified
-FR,MaxiCharger AC,Pedestal,Quick Guide,2023-02-23,verified
+FR,MaxiCharger AC,Wallbox Pedestal,Quick Guide,2023-02-23,verified
+FR,MaxiCharger AC,Pedestal,Quick Guide,,missing
 FR,MaxiCharger DC,Compact,Installation and Operation Manual,,missing
 FR,MaxiCharger DC,Compact,Service Manual,2023-04-13,verified
 FR,MaxiCharger DC,Fast,Installation and Operation Manual,2023-05-17,verified
