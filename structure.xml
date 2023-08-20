@@ -2,72 +2,88 @@
 <MaxiCharger_AC class="cat">
     <Wallbox class="item">
         <Installation_and_Operation_Manual class="doc">
+            <release></release>
             <arch></arch>
         </Installation_and_Operation_Manual>
         <Quick_Guide class="doc">
+            <release></release>
             <arch></arch>
         </Quick_Guide>
         <Pedestal class="item">
             <Quick_Guide class="doc">
+                <release></release>
                 <arch></arch>
             </Quick_Guide>
         </Pedestal>
         <Pedestal_EP class="item">
             <Quick_Guide class="doc">
+                <release></release>
                 <arch></arch>
             </Quick_Guide>
         </Pedestal_EP>
     </Wallbox>
     <Compact class="item">
         <User_Manual class="doc">
+            <release></release>
             <arch></arch>
         </User_Manual>
         <Quick_Guide class="doc">
+            <release></release>
             <arch></arch>
         </Quick_Guide>
     </Compact>
     <Ultra class="item">
         <User_Manual class="doc">
+            <release></release>
             <arch></arch>
         </User_Manual>
         <Quick_Guide class="doc">
+            <release></release>
             <arch></arch>
         </Quick_Guide>
     </Ultra>
     <Pedestal_ASP class="item">
         <Quick_Guide class="doc">
+            <release></release>
             <arch></arch>
         </Quick_Guide>
     </Pedestal_ASP>
     <Maintenance_Manual class="doc">
+        <release></release>
         <arch></arch>
     </Maintenance_Manual>
 </MaxiCharger_AC>
 <MaxiCharger_DC class="cat">
     <Fast class="item">
         <Installation_and_Operation_Manual class="doc">
+            <release></release>
             <arch></arch>
         </Installation_and_Operation_Manual>
         <Service_Manual class="doc">
+            <release></release>
             <arch></arch>
         </Service_Manual>
+        <CMS class="item">
+            <Quick_Guide class="doc">
+                <release></release>
+                <arch></arch>
+            </Quick_Guide>
+        </CMS>
     </Fast>
-    <Fast_CMS class="item">
-        <Quick_Guide class="doc">
-            <arch></arch>
-        </Quick_Guide>
-    </Fast_CMS>
     <Compact class="item">
         <Installation_and_Operation_Manual class="doc">
+            <release></release>
             <arch></arch>
         </Installation_and_Operation_Manual>
         <Service_Manual class="doc">
+            <release></release>
             <arch></arch>
         </Service_Manual>
     </Compat>
 </MaxiCharger_DC>
 <Energy_Management_System class="cat">
     <Operation_and_Installation_Manual class="doc">
+        <release></release>
         <arch></arch>
     </Operation_and_Installation_Manual>
 </Energy_Management_System>

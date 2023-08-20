@@ -48,7 +48,7 @@ for lang_folder in lang_folders:
 readme_path = os.path.join(target_folder, "README.md")
 with open(readme_path, "w") as readme_file:
     readme_file.write("# verification result\n\n")
-    for lang_folder in language_folders:
+    for lang_folder in lang_folders:
         lang_code = lang_folder.split("_")[-1]
         csv_file = f"{lang_code}_verification.csv"
         csv_path = os.path.join(lang_folder, csv_file)
